@@ -1,0 +1,11 @@
+numpy 
+pandas 
+scikit-learn
+matplotlib
+joblib
+streamlit
+torch
+transformers
+datasets
+evaluate
+accelerate
