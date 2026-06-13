@@ -1,5 +1,6 @@
 __pycache__/ 
-.ipynb_checkpoints/ .
+.ipynb_checkpoints/
+data/*.csv
 venv/
 venv/
 labenv/ 
@@ -8,3 +9,6 @@ models/distilbert/checkpoint-*/
 *.pyo 
 .DS_Store 
 .env
+
+.ipynb_checkpoints/
+data/*.csv
