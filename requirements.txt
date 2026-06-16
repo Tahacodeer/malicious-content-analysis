@@ -9,3 +9,4 @@ transformers
 datasets
 evaluate
 accelerate
+jupyter notebook
