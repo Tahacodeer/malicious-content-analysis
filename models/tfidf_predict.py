@@ -1,19 +1,17 @@
 import joblib
 
-tfidf = joblib.load("models/tfidf_model.pkl")
 model = joblib.load("models/logistic_model.pkl")
+tfidf = joblib.load("models/tfidf_model.pkl")
 
 
 def predict_email(email):
 
-    X = tfidf.transform([email])
+    x = tfidf.transform([email])
 
-    prediction = model.predict(X)[0]
-
-    probability = model.predict_proba(X)[0]
+    proba = model.predict_proba(x)[0]
 
     return {
-        "prediction": int(prediction),
-        "legitimate": float(probability[0]),
-        "phishing": float(probability[1])
+        "prediction": int(proba[1] >= 0.445),
+        "legitimate": float(proba[0]),
+        "phishing": float(proba[1])
     }

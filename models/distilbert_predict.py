@@ -22,15 +22,9 @@ def predict_email(text):
     with torch.no_grad():
         outputs = model(**inputs)
 
-        probs = torch.softmax(
-        outputs.logits,
-        dim=1
-    )
+    probs = torch.softmax(outputs.logits, dim=1)
 
-    prediction = torch.argmax(
-        probs,
-        dim=1
-    ).item()
+    prediction = torch.argmax(probs, dim=1).item()
 
     return {
         "prediction": prediction,
