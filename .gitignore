@@ -4,6 +4,7 @@ data/
 venv/
 venv/
 labenv/ 
+models/distilbert_model/
 models/distilbert/checkpoint-*/ 
 *.pyc 
 *.pyo 
