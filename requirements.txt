@@ -11,3 +11,6 @@ evaluate
 accelerate
 jupyter
 notebook
+safetensors
+pillow
+pytesseract
