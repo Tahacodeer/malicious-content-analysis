@@ -138,7 +138,7 @@ The application also provides phishing prevention advice, including:
 
 Clone the repository:
 
-git clone https://github.com/USERNAME/malicious-content-analysis.git
+git clone https://github.com/Tahacodeer/malicious-content-analysis.git
 
 Install dependencies:
 
