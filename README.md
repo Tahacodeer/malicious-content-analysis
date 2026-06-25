@@ -156,11 +156,9 @@ Developed as a university NLP project on malicious content detection using Machi
 
 Team members:
 
-- Your Name
-- Collaborator 1
-- Collaborator 2
-- Collaborator 3
-- Collaborator 4
+- Taha lazhari
+- hassan msaiaid
+
 
 ---
 
