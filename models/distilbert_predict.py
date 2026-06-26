@@ -1,7 +1,10 @@
+import os
 import torch
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
 
-MODEL_PATH = "models/distilbert_model"
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+MODEL_PATH = os.path.join(CURRENT_DIR, "distilbert_model")
 
 tokenizer = DistilBertTokenizer.from_pretrained(MODEL_PATH)
 
