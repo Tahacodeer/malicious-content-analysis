@@ -14,4 +14,4 @@ notebook
 safetensors
 pillow
 pytesseract
-packages.txt
+
